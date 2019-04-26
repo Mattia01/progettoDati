@@ -2,28 +2,23 @@ import pzgram
 import requests
 bot=pzgram.Bot("758461360:AAG1uPeuhZMi1k-Jt2-mknmjyZLUMztNi6I")
 #bot1=pzgram.Bot("760136774:AAGaGil-U8PTbRMIQpmSyTHA-f_bF2aghPc")
-button1 = pzgram.create_button("Command1", data="istantanea")
-button2 = pzgram.create_button("Command1", data="pressione")
-button3 = pzgram.create_button("Command1", data="altitudine")
-button4 = pzgram.create_button("Command1", data="luce")
+def setbot(chat):
+	button1 = pzgram.create_keyboard([["istantanea","1min","10min","1ora"]])
+	chat.send("Select a command", reply_markup=button1)
 
-keyboard_array = [["button1", "button2","button3","button4"]]
-keyboard=pzgram.create_keyboard(keyboard_array)
-#chat.send("Select a command", reply_markup=keyboard)
 
 def sendIstantanea(chat):
-	#chat.send
-	pass
-
+	chat.send("ciao")
+	#pass
 def ricerca_istantanea(chat,message):
 	chat.send("ricerca istantanea avviata!")
 	chat.send(message)
 	#bot.set_next(chat,nome della funzione da eseguire)
-	pass
+	#pass
 
 def ricerca_un_minuto(chat,message):
 	chat.send("ricerca da un minuto avviata!")
-	pass
+	#pass
 
 #def ricerca_dieci_minuti(chat,message):
 #	chat.send("ricerca da 10 minuti avviata!")
@@ -51,20 +46,16 @@ def ricerca_un_minuto(chat,message):
 #def ric4():
 	#scelta=4
 	#mqtt.ricerca()
-
-def start_command(chat):
-	keyboard=pzgram.create_keyboard([["command1", "command2"]])
-	pzgram.Chat.send("Select a command", reply_markup=keyboard)
-
-def process_message(message,chat):
-	if message.text=="Command1":
-		ricerca_istantanea
-	elif message.text =="Command2":
-		ricerca_un_minuto(790671030,message)
 #start_
-bot.set_commands({"ricerca_istantanea": ricerca_istantanea})
-bot.set_commands({ "istantanea": sendIstantanea}) 
+#bot.set_commands({"ricerca_istantanea": ricerca_istantanea})
+
+bot.set_commands({"avvia": setbot})
+bot.set_commands({"istantanea": sendIstantanea}) 
+
+bot.run()
 #bot.set_commands({"ricerca_10_minuti":ricerca_dieci_minuti,"ricerca_un_ora":ricerca_un_ora})
        #fa partire il bot
 #pzgram.Chat(bot1, 553695220).send("sm")     #manda un messaggio su telegram
-bot.run()
+#if __name__ == "__main__":
+#	telebot().setbot()
+#	bot.run()
