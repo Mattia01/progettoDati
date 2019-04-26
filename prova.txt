@@ -40,3 +40,17 @@ Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altit
 Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
 32
 Client mosqsub|21838-server sending DISCONNECT
+Client mosqsub|22721-server sending CONNECT
+Client mosqsub|22721-server received CONNACK (0)
+Client mosqsub|22721-server sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0)
+Client mosqsub|22721-server received SUBACK
+Subscribed (mid: 1): 0
+Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+21.00
+Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
+101015
+Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
+55.65
+Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
+49
+Client mosqsub|22721-server sending DISCONNECT
