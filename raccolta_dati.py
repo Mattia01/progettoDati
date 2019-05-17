@@ -1,5 +1,6 @@
 import pzgram
 import requests
+import mosquitto
 bot=pzgram.Bot("758461360:AAG1uPeuhZMi1k-Jt2-mknmjyZLUMztNi6I")
 #bot1=pzgram.Bot("760136774:AAGaGil-U8PTbRMIQpmSyTHA-f_bF2aghPc")
 def setbot(chat):
@@ -8,7 +9,8 @@ def setbot(chat):
 
 
 def sendIstantanea(chat):
-	chat.send("ciao")
+	#mqtt().ricevi_dati()
+	chat.send(mqtt().ricevi_dati())
 	#pass
 def ricerca_istantanea(chat,message):
 	chat.send("ricerca istantanea avviata!")

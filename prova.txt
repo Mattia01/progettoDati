@@ -1,56 +1,480 @@
-Client mosqsub|21806-server sending CONNECT
-Client mosqsub|21806-server received CONNACK (0)
-Client mosqsub|21806-server sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0)
-Client mosqsub|21806-server received SUBACK
+Client mosq/bUw6he21tLoTvhQRfc sending CONNECT
+Client mosq/bUw6he21tLoTvhQRfc received CONNACK (0)
+Client mosq/bUw6he21tLoTvhQRfc sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/bUw6he21tLoTvhQRfc received SUBACK
 Subscribed (mid: 1): 0
-Client mosqsub|21806-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
-20.60
-Client mosqsub|21806-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
-101022
-Client mosqsub|21806-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
-55.48
-Client mosqsub|21806-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
-32
-Client mosqsub|21806-server sending DISCONNECT
-Client mosqsub|21817-server sending CONNECT
-Client mosqsub|21817-server received CONNACK (0)
-Client mosqsub|21817-server sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0)
-Client mosqsub|21817-server received SUBACK
+Client mosq/bUw6he21tLoTvhQRfc received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/bUw6he21tLoTvhQRfc sending DISCONNECT
+Client mosq/kvruvhYJDSgpunQSaT sending CONNECT
+Client mosq/kvruvhYJDSgpunQSaT received CONNACK (0)
+Client mosq/kvruvhYJDSgpunQSaT sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/kvruvhYJDSgpunQSaT received SUBACK
 Subscribed (mid: 1): 0
-Client mosqsub|21817-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
-20.60
-Client mosqsub|21817-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
-101026
-Client mosqsub|21817-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
-55.06
-Client mosqsub|21817-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
-32
-Client mosqsub|21817-server sending DISCONNECT
-Client mosqsub|21838-server sending CONNECT
-Client mosqsub|21838-server received CONNACK (0)
-Client mosqsub|21838-server sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0)
-Client mosqsub|21838-server received SUBACK
+Client mosq/kvruvhYJDSgpunQSaT received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/kvruvhYJDSgpunQSaT sending DISCONNECT
+Client mosq/1nqueRCl0ELRQwfAkI sending CONNECT
+Client mosq/1nqueRCl0ELRQwfAkI received CONNACK (0)
+Client mosq/1nqueRCl0ELRQwfAkI sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/1nqueRCl0ELRQwfAkI received SUBACK
 Subscribed (mid: 1): 0
-Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
-20.60
-Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
-101015
-Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
-56.07
-Client mosqsub|21838-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
-32
-Client mosqsub|21838-server sending DISCONNECT
-Client mosqsub|22721-server sending CONNECT
-Client mosqsub|22721-server received CONNACK (0)
-Client mosqsub|22721-server sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0)
-Client mosqsub|22721-server received SUBACK
+Client mosq/1nqueRCl0ELRQwfAkI received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/1nqueRCl0ELRQwfAkI sending DISCONNECT
+Client mosq/xF0jlusaaSEi4TabOf sending CONNECT
+Client mosq/xF0jlusaaSEi4TabOf received CONNACK (0)
+Client mosq/xF0jlusaaSEi4TabOf sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/xF0jlusaaSEi4TabOf received SUBACK
 Subscribed (mid: 1): 0
-Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
-21.00
-Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
-101015
-Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
-55.65
-Client mosqsub|22721-server received PUBLISH (d0, q0, r0, m0, '/calvino-08/luce', ... (2 bytes))
-49
-Client mosqsub|22721-server sending DISCONNECT
+Client mosq/xF0jlusaaSEi4TabOf received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/xF0jlusaaSEi4TabOf sending DISCONNECT
+Client mosq/On1Aa8LMUAj1mav2jW sending CONNECT
+Client mosq/On1Aa8LMUAj1mav2jW received CONNACK (0)
+Client mosq/On1Aa8LMUAj1mav2jW sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/On1Aa8LMUAj1mav2jW received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/On1Aa8LMUAj1mav2jW received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/On1Aa8LMUAj1mav2jW sending DISCONNECT
+Client mosq/LBphOK2QZ5Rpu8cBIs sending CONNECT
+Client mosq/LBphOK2QZ5Rpu8cBIs received CONNACK (0)
+Client mosq/LBphOK2QZ5Rpu8cBIs sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/LBphOK2QZ5Rpu8cBIs received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/LBphOK2QZ5Rpu8cBIs received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/LBphOK2QZ5Rpu8cBIs sending DISCONNECT
+Client mosq/ghlZKcU0ybIC9v6UDz sending CONNECT
+Client mosq/ghlZKcU0ybIC9v6UDz received CONNACK (0)
+Client mosq/ghlZKcU0ybIC9v6UDz sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/ghlZKcU0ybIC9v6UDz received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/ghlZKcU0ybIC9v6UDz received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/ghlZKcU0ybIC9v6UDz sending DISCONNECT
+Client mosq/cjJcDf4TSfMhXkvCbq sending CONNECT
+Client mosq/cjJcDf4TSfMhXkvCbq received CONNACK (0)
+Client mosq/cjJcDf4TSfMhXkvCbq sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/cjJcDf4TSfMhXkvCbq received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/cjJcDf4TSfMhXkvCbq received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/cjJcDf4TSfMhXkvCbq sending DISCONNECT
+Client mosq/57ifgJK1wA2DosbgIt sending CONNECT
+Client mosq/57ifgJK1wA2DosbgIt received CONNACK (0)
+Client mosq/57ifgJK1wA2DosbgIt sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/57ifgJK1wA2DosbgIt received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/57ifgJK1wA2DosbgIt received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/57ifgJK1wA2DosbgIt sending DISCONNECT
+Client mosq/Zf8aZUsy9amCrCaBKK sending CONNECT
+Client mosq/Zf8aZUsy9amCrCaBKK received CONNACK (0)
+Client mosq/Zf8aZUsy9amCrCaBKK sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/Zf8aZUsy9amCrCaBKK received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/Zf8aZUsy9amCrCaBKK received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/Zf8aZUsy9amCrCaBKK sending DISCONNECT
+Client mosq/5rWhxwobLDUwLnImlO sending CONNECT
+Client mosq/5rWhxwobLDUwLnImlO received CONNACK (0)
+Client mosq/5rWhxwobLDUwLnImlO sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/5rWhxwobLDUwLnImlO received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/5rWhxwobLDUwLnImlO received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/5rWhxwobLDUwLnImlO sending DISCONNECT
+Client mosq/G0e1JYBzyHifKIquTA sending CONNECT
+Client mosq/G0e1JYBzyHifKIquTA received CONNACK (0)
+Client mosq/G0e1JYBzyHifKIquTA sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/G0e1JYBzyHifKIquTA received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/G0e1JYBzyHifKIquTA received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/G0e1JYBzyHifKIquTA sending DISCONNECT
+Client mosq/mWJRoCeOvIfLU1hlZS sending CONNECT
+Client mosq/mWJRoCeOvIfLU1hlZS received CONNACK (0)
+Client mosq/mWJRoCeOvIfLU1hlZS sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/mWJRoCeOvIfLU1hlZS received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/mWJRoCeOvIfLU1hlZS received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/mWJRoCeOvIfLU1hlZS sending DISCONNECT
+Client mosq/3DZNZAZU1EaBWobieJ sending CONNECT
+Client mosq/3DZNZAZU1EaBWobieJ received CONNACK (0)
+Client mosq/3DZNZAZU1EaBWobieJ sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/3DZNZAZU1EaBWobieJ received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/3DZNZAZU1EaBWobieJ received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/3DZNZAZU1EaBWobieJ sending DISCONNECT
+Client mosq/KAg8aq4tHm6gZnSH3s sending CONNECT
+Client mosq/KAg8aq4tHm6gZnSH3s received CONNACK (0)
+Client mosq/KAg8aq4tHm6gZnSH3s sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/KAg8aq4tHm6gZnSH3s received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/KAg8aq4tHm6gZnSH3s received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/KAg8aq4tHm6gZnSH3s sending DISCONNECT
+Client mosq/ej2ZGppfNWSrCoxsbo sending CONNECT
+Client mosq/ej2ZGppfNWSrCoxsbo received CONNACK (0)
+Client mosq/ej2ZGppfNWSrCoxsbo sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/ej2ZGppfNWSrCoxsbo received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/ej2ZGppfNWSrCoxsbo received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/ej2ZGppfNWSrCoxsbo sending DISCONNECT
+Client mosq/aJR9KIymdOP5DnQIb8 sending CONNECT
+Client mosq/aJR9KIymdOP5DnQIb8 received CONNACK (0)
+Client mosq/aJR9KIymdOP5DnQIb8 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/aJR9KIymdOP5DnQIb8 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/aJR9KIymdOP5DnQIb8 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/aJR9KIymdOP5DnQIb8 sending DISCONNECT
+Client mosq/u8Kk67rQ7toPOTUBoE sending CONNECT
+Client mosq/u8Kk67rQ7toPOTUBoE received CONNACK (0)
+Client mosq/u8Kk67rQ7toPOTUBoE sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/u8Kk67rQ7toPOTUBoE received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/u8Kk67rQ7toPOTUBoE received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/u8Kk67rQ7toPOTUBoE sending DISCONNECT
+Client mosq/F6OfyfCoNsilBVeil8 sending CONNECT
+Client mosq/F6OfyfCoNsilBVeil8 received CONNACK (0)
+Client mosq/F6OfyfCoNsilBVeil8 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/F6OfyfCoNsilBVeil8 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/F6OfyfCoNsilBVeil8 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/F6OfyfCoNsilBVeil8 sending DISCONNECT
+Client mosq/YixKJlgJ8b6BiF84LU sending CONNECT
+Client mosq/YixKJlgJ8b6BiF84LU received CONNACK (0)
+Client mosq/YixKJlgJ8b6BiF84LU sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/YixKJlgJ8b6BiF84LU received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/YixKJlgJ8b6BiF84LU received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/YixKJlgJ8b6BiF84LU sending DISCONNECT
+Client mosq/lynFEkthaaA8GCvu0V sending CONNECT
+Client mosq/lynFEkthaaA8GCvu0V received CONNACK (0)
+Client mosq/lynFEkthaaA8GCvu0V sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/lynFEkthaaA8GCvu0V received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/lynFEkthaaA8GCvu0V received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
+100552
+Client mosq/lynFEkthaaA8GCvu0V sending DISCONNECT
+Client mosq/nRboFC1sglIk7Yf3Nm sending CONNECT
+Client mosq/nRboFC1sglIk7Yf3Nm received CONNACK (0)
+Client mosq/nRboFC1sglIk7Yf3Nm sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/nRboFC1sglIk7Yf3Nm received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/nRboFC1sglIk7Yf3Nm received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/nRboFC1sglIk7Yf3Nm sending DISCONNECT
+Client mosq/FX043KhTIYjmd6m64m sending CONNECT
+Client mosq/FX043KhTIYjmd6m64m received CONNACK (0)
+Client mosq/FX043KhTIYjmd6m64m sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/FX043KhTIYjmd6m64m received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/FX043KhTIYjmd6m64m received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/FX043KhTIYjmd6m64m sending DISCONNECT
+Client mosq/iRthvBSFU1CktzsDVu sending CONNECT
+Client mosq/iRthvBSFU1CktzsDVu received CONNACK (0)
+Client mosq/iRthvBSFU1CktzsDVu sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/iRthvBSFU1CktzsDVu received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/iRthvBSFU1CktzsDVu received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/iRthvBSFU1CktzsDVu sending DISCONNECT
+Client mosq/Squ90db5nPUVvUpf5w sending CONNECT
+Client mosq/Squ90db5nPUVvUpf5w received CONNACK (0)
+Client mosq/Squ90db5nPUVvUpf5w sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/Squ90db5nPUVvUpf5w received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/Squ90db5nPUVvUpf5w received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/Squ90db5nPUVvUpf5w sending DISCONNECT
+Client mosq/aCmPfhbmVXxDKf2M4d sending CONNECT
+Client mosq/aCmPfhbmVXxDKf2M4d received CONNACK (0)
+Client mosq/aCmPfhbmVXxDKf2M4d sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/aCmPfhbmVXxDKf2M4d received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/aCmPfhbmVXxDKf2M4d received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/THA3JRLd4hPGiClmzL sending CONNECT
+Client mosq/THA3JRLd4hPGiClmzL received CONNACK (0)
+Client mosq/THA3JRLd4hPGiClmzL sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/THA3JRLd4hPGiClmzL received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/THA3JRLd4hPGiClmzL received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/THA3JRLd4hPGiClmzL sending DISCONNECT
+Client mosq/ZeCDlRSz8MkOAsJZ6u sending CONNECT
+Client mosq/ZeCDlRSz8MkOAsJZ6u received CONNACK (0)
+Client mosq/ZeCDlRSz8MkOAsJZ6u sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/ZeCDlRSz8MkOAsJZ6u received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/ZeCDlRSz8MkOAsJZ6u received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/ZeCDlRSz8MkOAsJZ6u sending DISCONNECT
+Client mosq/vgwm7SNAaFM0fkVs2a sending CONNECT
+Client mosq/vgwm7SNAaFM0fkVs2a received CONNACK (0)
+Client mosq/vgwm7SNAaFM0fkVs2a sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/vgwm7SNAaFM0fkVs2a received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/vgwm7SNAaFM0fkVs2a received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/vgwm7SNAaFM0fkVs2a sending DISCONNECT
+Client mosq/aCmPfhbmVXxDKf2M4d sending DISCONNECT
+Client mosq/0qumK1zpZWFIyg2vyq sending CONNECT
+Client mosq/0qumK1zpZWFIyg2vyq received CONNACK (0)
+Client mosq/0qumK1zpZWFIyg2vyq sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/0qumK1zpZWFIyg2vyq received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/0qumK1zpZWFIyg2vyq received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/wiiLx8aweD39UPplZm sending CONNECT
+Client mosq/wiiLx8aweD39UPplZm received CONNACK (0)
+Client mosq/wiiLx8aweD39UPplZm sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/wiiLx8aweD39UPplZm received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/wiiLx8aweD39UPplZm received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/wiiLx8aweD39UPplZm sending DISCONNECT
+Client mosq/0qumK1zpZWFIyg2vyq sending DISCONNECT
+Client mosq/XyRb3vjOaiKREtNman sending CONNECT
+Client mosq/XyRb3vjOaiKREtNman received CONNACK (0)
+Client mosq/XyRb3vjOaiKREtNman sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/XyRb3vjOaiKREtNman received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/XyRb3vjOaiKREtNman received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/XyRb3vjOaiKREtNman sending DISCONNECT
+Client mosq/cArcuAu7W2OeaqWlf0 sending CONNECT
+Client mosq/cArcuAu7W2OeaqWlf0 received CONNACK (0)
+Client mosq/cArcuAu7W2OeaqWlf0 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/cArcuAu7W2OeaqWlf0 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/cArcuAu7W2OeaqWlf0 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/cArcuAu7W2OeaqWlf0 sending DISCONNECT
+Client mosq/FyhgIIARN02MQZqD6C sending CONNECT
+Client mosq/FyhgIIARN02MQZqD6C received CONNACK (0)
+Client mosq/FyhgIIARN02MQZqD6C sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/FyhgIIARN02MQZqD6C received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/FyhgIIARN02MQZqD6C received PUBLISH (d0, q0, r0, m0, '/calvino-08/pressione', ... (6 bytes))
+100552
+Client mosq/FyhgIIARN02MQZqD6C sending DISCONNECT
+Client mosq/Hz01nUK1uquXNggoS1 sending CONNECT
+Client mosq/Hz01nUK1uquXNggoS1 received CONNACK (0)
+Client mosq/Hz01nUK1uquXNggoS1 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/Hz01nUK1uquXNggoS1 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/Hz01nUK1uquXNggoS1 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/Hz01nUK1uquXNggoS1 sending DISCONNECT
+Client mosq/4pcBNzL7fMu9sluN5Y sending CONNECT
+Client mosq/4pcBNzL7fMu9sluN5Y received CONNACK (0)
+Client mosq/4pcBNzL7fMu9sluN5Y sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/4pcBNzL7fMu9sluN5Y received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/4pcBNzL7fMu9sluN5Y received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/4pcBNzL7fMu9sluN5Y sending DISCONNECT
+Client mosq/66DLsdgaVMLFJKHpbf sending CONNECT
+Client mosq/66DLsdgaVMLFJKHpbf received CONNACK (0)
+Client mosq/66DLsdgaVMLFJKHpbf sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/66DLsdgaVMLFJKHpbf received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/66DLsdgaVMLFJKHpbf received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/66DLsdgaVMLFJKHpbf sending DISCONNECT
+Client mosq/dhXzBqw55ycouAP7W8 sending CONNECT
+Client mosq/dhXzBqw55ycouAP7W8 received CONNACK (0)
+Client mosq/dhXzBqw55ycouAP7W8 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/dhXzBqw55ycouAP7W8 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/dhXzBqw55ycouAP7W8 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/dhXzBqw55ycouAP7W8 sending DISCONNECT
+Client mosq/n02roGB5KeZySi5dKi sending CONNECT
+Client mosq/n02roGB5KeZySi5dKi received CONNACK (0)
+Client mosq/n02roGB5KeZySi5dKi sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/n02roGB5KeZySi5dKi received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/n02roGB5KeZySi5dKi received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/n02roGB5KeZySi5dKi sending DISCONNECT
+Client mosq/ZVZeL1R1IDBNstWOLi sending CONNECT
+Client mosq/ZVZeL1R1IDBNstWOLi received CONNACK (0)
+Client mosq/ZVZeL1R1IDBNstWOLi sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/ZVZeL1R1IDBNstWOLi received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/ZVZeL1R1IDBNstWOLi received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/ZVZeL1R1IDBNstWOLi sending DISCONNECT
+Client mosq/qzmVhOC8mgepd33AHk sending CONNECT
+Client mosq/qzmVhOC8mgepd33AHk received CONNACK (0)
+Client mosq/qzmVhOC8mgepd33AHk sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/qzmVhOC8mgepd33AHk received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/qzmVhOC8mgepd33AHk received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/qzmVhOC8mgepd33AHk sending DISCONNECT
+Client mosq/DyiEVYmyjI5KAOdtTm sending CONNECT
+Client mosq/DyiEVYmyjI5KAOdtTm received CONNACK (0)
+Client mosq/DyiEVYmyjI5KAOdtTm sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/DyiEVYmyjI5KAOdtTm received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/DyiEVYmyjI5KAOdtTm received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/DyiEVYmyjI5KAOdtTm sending DISCONNECT
+Client mosq/C9S2B5piFqC5JPdLvS sending CONNECT
+Client mosq/C9S2B5piFqC5JPdLvS received CONNACK (0)
+Client mosq/C9S2B5piFqC5JPdLvS sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/C9S2B5piFqC5JPdLvS received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/C9S2B5piFqC5JPdLvS received PUBLISH (d0, q0, r0, m0, '/calvino-08/altitudine', ... (5 bytes))
+95.17
+Client mosq/C9S2B5piFqC5JPdLvS sending DISCONNECT
+Client mosq/hwA7qtjR3HvsWL3xj4 sending CONNECT
+Client mosq/hwA7qtjR3HvsWL3xj4 received CONNACK (0)
+Client mosq/hwA7qtjR3HvsWL3xj4 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/hwA7qtjR3HvsWL3xj4 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/hwA7qtjR3HvsWL3xj4 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/hwA7qtjR3HvsWL3xj4 sending DISCONNECT
+Client mosq/dPSOXikAoKn6rNSDGW sending CONNECT
+Client mosq/dPSOXikAoKn6rNSDGW received CONNACK (0)
+Client mosq/dPSOXikAoKn6rNSDGW sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/dPSOXikAoKn6rNSDGW received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/dPSOXikAoKn6rNSDGW received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/dPSOXikAoKn6rNSDGW sending DISCONNECT
+Client mosq/eHGzBZe1LdkwMU6CTZ sending CONNECT
+Client mosq/eHGzBZe1LdkwMU6CTZ received CONNACK (0)
+Client mosq/eHGzBZe1LdkwMU6CTZ sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/eHGzBZe1LdkwMU6CTZ received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/eHGzBZe1LdkwMU6CTZ received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/eHGzBZe1LdkwMU6CTZ sending DISCONNECT
+Client mosq/rxvqQaH2jzFkHCnQYY sending CONNECT
+Client mosq/rxvqQaH2jzFkHCnQYY received CONNACK (0)
+Client mosq/rxvqQaH2jzFkHCnQYY sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/rxvqQaH2jzFkHCnQYY received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/rxvqQaH2jzFkHCnQYY received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/rxvqQaH2jzFkHCnQYY sending DISCONNECT
+Client mosq/BHFA8XvJovFPfo4woU sending CONNECT
+Client mosq/BHFA8XvJovFPfo4woU received CONNACK (0)
+Client mosq/BHFA8XvJovFPfo4woU sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/BHFA8XvJovFPfo4woU received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/BHFA8XvJovFPfo4woU received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/BHFA8XvJovFPfo4woU sending DISCONNECT
+Client mosq/Zu9Sf6zkQRlm3sfjAR sending CONNECT
+Client mosq/Zu9Sf6zkQRlm3sfjAR received CONNACK (0)
+Client mosq/Zu9Sf6zkQRlm3sfjAR sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/Zu9Sf6zkQRlm3sfjAR received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/Zu9Sf6zkQRlm3sfjAR received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/Zu9Sf6zkQRlm3sfjAR sending DISCONNECT
+Client mosq/s2L1q8uuI0MqnsL6cE sending CONNECT
+Client mosq/s2L1q8uuI0MqnsL6cE received CONNACK (0)
+Client mosq/s2L1q8uuI0MqnsL6cE sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/s2L1q8uuI0MqnsL6cE received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/s2L1q8uuI0MqnsL6cE received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/s2L1q8uuI0MqnsL6cE sending DISCONNECT
+Client mosq/Tx3lvMUTP4IK4QhI9R sending CONNECT
+Client mosq/Tx3lvMUTP4IK4QhI9R received CONNACK (0)
+Client mosq/Tx3lvMUTP4IK4QhI9R sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/Tx3lvMUTP4IK4QhI9R received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/Tx3lvMUTP4IK4QhI9R received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/Tx3lvMUTP4IK4QhI9R sending DISCONNECT
+Client mosq/RbnTdhambk2PcXSEkr sending CONNECT
+Client mosq/RbnTdhambk2PcXSEkr received CONNACK (0)
+Client mosq/RbnTdhambk2PcXSEkr sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/RbnTdhambk2PcXSEkr received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/RbnTdhambk2PcXSEkr received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+23.90
+Client mosq/RbnTdhambk2PcXSEkr sending DISCONNECT
+Client mosq/xaI3aOp6faJa08I1mk sending CONNECT
+Client mosq/xaI3aOp6faJa08I1mk received CONNACK (0)
+Client mosq/xaI3aOp6faJa08I1mk sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/xaI3aOp6faJa08I1mk received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/xaI3aOp6faJa08I1mk received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/p4P90X4ibCibcSOrb3 sending CONNECT
+Client mosq/p4P90X4ibCibcSOrb3 received CONNACK (0)
+Client mosq/p4P90X4ibCibcSOrb3 sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/p4P90X4ibCibcSOrb3 received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/p4P90X4ibCibcSOrb3 received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/xaI3aOp6faJa08I1mk sending DISCONNECT
+Client mosq/p4P90X4ibCibcSOrb3 sending DISCONNECT
+Client mosq/aC2zUPBa6mf9JMWPFC sending CONNECT
+Client mosq/aC2zUPBa6mf9JMWPFC received CONNACK (0)
+Client mosq/aC2zUPBa6mf9JMWPFC sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/aC2zUPBa6mf9JMWPFC received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/aC2zUPBa6mf9JMWPFC received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/aC2zUPBa6mf9JMWPFC sending DISCONNECT
+Client mosq/6Vx7CFxmSl6JoE7lUO sending CONNECT
+Client mosq/6Vx7CFxmSl6JoE7lUO received CONNACK (0)
+Client mosq/6Vx7CFxmSl6JoE7lUO sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/6Vx7CFxmSl6JoE7lUO received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/6Vx7CFxmSl6JoE7lUO received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/6Vx7CFxmSl6JoE7lUO sending DISCONNECT
+Client mosq/9zPkHukAFytvqeCSSd sending CONNECT
+Client mosq/9zPkHukAFytvqeCSSd received CONNACK (0)
+Client mosq/9zPkHukAFytvqeCSSd sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/9zPkHukAFytvqeCSSd received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/9zPkHukAFytvqeCSSd received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/9zPkHukAFytvqeCSSd sending DISCONNECT
+Client mosq/ZIKOeSkLzaJ8aXOkyt sending CONNECT
+Client mosq/ZIKOeSkLzaJ8aXOkyt received CONNACK (0)
+Client mosq/ZIKOeSkLzaJ8aXOkyt sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/ZIKOeSkLzaJ8aXOkyt received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/ZIKOeSkLzaJ8aXOkyt received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/ZIKOeSkLzaJ8aXOkyt sending DISCONNECT
+Client mosq/3sjEpKLWCUrcImUJDM sending CONNECT
+Client mosq/3sjEpKLWCUrcImUJDM received CONNACK (0)
+Client mosq/3sjEpKLWCUrcImUJDM sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/3sjEpKLWCUrcImUJDM received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/3sjEpKLWCUrcImUJDM received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/3sjEpKLWCUrcImUJDM sending DISCONNECT
+Client mosq/V38N5hj7aS3mmhYKIr sending CONNECT
+Client mosq/V38N5hj7aS3mmhYKIr received CONNACK (0)
+Client mosq/V38N5hj7aS3mmhYKIr sending SUBSCRIBE (Mid: 1, Topic: /calvino-08/#, QoS: 0, Options: 0x00)
+Client mosq/V38N5hj7aS3mmhYKIr received SUBACK
+Subscribed (mid: 1): 0
+Client mosq/V38N5hj7aS3mmhYKIr received PUBLISH (d0, q0, r0, m0, '/calvino-08/temperatura', ... (5 bytes))
+24.00
+Client mosq/V38N5hj7aS3mmhYKIr sending DISCONNECT
